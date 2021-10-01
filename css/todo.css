@@ -1,0 +1,38 @@
+.todo-contents:focus-within {
+  /* width: 40vw; */
+  transform: translateX(-5%) translateY(-50px) scale(1.2);
+}
+.todo-contents {
+  transition: all 0.3s ease-in-out;
+  width: 500px;
+  font-weight: 600;
+  background-color: black;
+  border-end-end-radius: 10px;
+}
+.todo-contents div:first-child {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a1a1a1;
+  opacity: 0.8;
+  height: 30px;
+}
+#quote {
+  margin: 10px 10px;
+}
+#todo-list {
+  margin: 10px 10px;
+}
+#todo-list li,
+#quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#todo-form {
+  margin: 10px 10px;
+}
+#todo-form input {
+  width: 470px;
+}

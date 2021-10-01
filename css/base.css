@@ -1,0 +1,33 @@
+.main-info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  width: 800px;
+}
+#greeting {
+  display: flex;
+  font-weight: 600;
+  margin: 30px 30px;
+  font-size: 25px;
+}
+#clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  font-weight: 900;
+}
+#weather {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  font-size: 0.5em;
+}
+.todo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 40px 40px;
+}

@@ -1,0 +1,26 @@
+#login-form {
+  margin-top: 30px;
+}
+#login-form input {
+  border: none;
+  width: 70%;
+  font-size: 1.5em;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  caret-color: #ffffff;
+}
+#login-form input::placeholder {
+  color: #ffffff;
+}
+#login-form button {
+  margin-left: 80px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: #ffffff;
+  background-color: transparent;
+  font-weight: 800;
+  color: #ffffff;
+}
